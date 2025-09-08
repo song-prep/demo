@@ -184,6 +184,24 @@
     padding: 4px 0;
   }
 
+  .lyrics-summary .label {
+    color: #2c3e50; /* 深色标签 */
+    font-weight: bold;
+    margin-right: 4px; /* 标签和时间戳之间的间距 */
+  }
+  
+  /* 时间戳样式（如[0.00:2.80]） */
+  .lyrics-summary .timestamp {
+    color: #7f8c8d; /* 浅色时间戳 */
+    margin-right: 12px; /* 整体之间的间距 */
+  }
+  
+  /* 保持原有的换行和间距 */
+  .lyrics-summary {
+    line-height: 1.5;
+    white-space: pre-line;
+  }
+
   </style>
 
 
@@ -323,7 +341,7 @@
           </thead>
           <tbody>
       <tr style="background-color: #dcdbda;">
-        <td colspan="7" style="text-align: left; padding: 8px 12px; border-bottom: 1px solid #bdbdbd;">  <span class="icon"><i class="fas fa-guitar"></i></span><strong> English </strong></td>
+        <td colspan="7" style="text-align: left; padding: 8px 12px; border-bottom: 1px solid #bdbdbd;">  <span class="icon"><i class="fas fa-guitar"></i></span><strong> English Songs</strong></td>
       </tr>
       <tr>
         <td width="30%" class="audio-compare" style="text-align: center;">
@@ -334,12 +352,13 @@
         <td width="70%" style="text-align: left;">
           <details>
             <summary class="lyrics-summary">
-              [intro][0.00:2.80]  [verse][2.80:33.23]  
-              [chorus][33.23:56.14]  
-              [inst][56.14:77.23]  
-              [verse][77.23:108.65]  
-              [chorus][108.65:125.54]  
-              [outro][125.54:138.49]
+              <span class="label">[intro]</span><span class="timestamp">[0.00:2.80]</span>  
+              <span class="label">[verse]</span><span class="timestamp">[2.80:33.23]</span>  
+              <span class="label">[chorus]</span><span class="timestamp">[33.23:56.14]</span>  
+              <span class="label">[inst]</span><span class="timestamp">[56.14:77.23]</span>  
+              <span class="label">[verse]</span><span class="timestamp">[77.23:108.65]</span>  
+              <span class="label">[chorus]</span><span class="timestamp">[108.65:125.54]</span>  
+              <span class="label">[outro]</span><span class="timestamp">[125.54:138.49]</span>
             </summary>
             <div class="lyrics-content">
               <span class="lyrics-section">[intro][0.00:2.80]</span> ; 
@@ -383,11 +402,11 @@
         <td width="70%" style="text-align: left;">
           <details>
             <summary class="lyrics-summary">
-              <br>[intro][0.00:3.28]<br>
-              [[verse][3.28:30.08]<br>
-              [chorus][30.08:66.15]<br>
-              [verse][66.15:101.82]<br>
-              [chorus][101.82:130.49]<br>
+              [intro][0.00:3.28]  
+              [[verse][3.28:30.08]  
+              [chorus][30.08:66.15]  
+              [verse][66.15:101.82]  
+              [chorus][101.82:130.49]  
               [outro][130.49:136.51]
             </summary>
             <div class="lyrics-content">
@@ -473,6 +492,44 @@
             One love one heart let's rally together.For our beautiful mother will fight for
           </div>
         </td>
+      </tr>
+
+      <tr>
+        <td width="30%" class="audio-compare" style="text-align: center;">
+          <audio controls="">
+            <source src="static/audios/zhen/15_流行（抒情）_s0.flac" type="audio/wav">
+          </audio>
+        </td>
+        <td width="70%" style="text-align: left;">
+          <div class="lyrics-content">
+            <span class="lyrics-section">[intro][0.00:2.82]</span> ; 
+            <span class="lyrics-section">[verse][2.82:37.00]</span> 
+            Wild wind.Whipping.Tires are creeping and.
+            Tripping two roads woven neat.The moon's soft light laughing singing.
+            Bend your picking.Ignoring darkness we all know.
+            Chasing shadows.Spirits dancing crosswhite valleys of a timberland ;
+            <span class="lyrics-section">[chorus][37.00:64.72]</span> 
+            Torn by mystery viewed by chance.In every corner of this world.
+            Wild strange land bold and brazen.
+            No stars are fading as we whisper secrets with the dawn.
+            Twilight treasures daylight escapades.
+            In no worry about the road we're on ;
+            <span class="lyrics-section">[inst][64.72:79.96]</span> 
+            <span class="lyrics-section">[verse][79.96:110.39]</span> 
+            Hopes Tires are creeping.Two roads woven neat.
+            The moon's soft light laughing singing.
+            Bend your picking.Ignoring darkness we all die.
+            Ignoring the darkness we all die ;
+            <span class="lyrics-section">[chorus][110.39:146.57]</span> 
+            Wild wind.Whipping.Tires are creeping.
+            Two roads woven neat.
+            The moon's soft light.Wild wind
+          </div>
+        </td>
+      </tr>
+
+      <tr style="background-color: #dcdbda;">
+        <td colspan="7" style="text-align: left; padding: 8px 12px; border-bottom: 1px solid #bdbdbd;">  <span class="icon"><i class="fas fa-guitar"></i></span><strong> Chinese Songs </strong></td>
       </tr>
 
       <tr>
