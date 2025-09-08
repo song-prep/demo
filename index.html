@@ -178,28 +178,21 @@
   }
 
   .lyrics-summary {
-    cursor: pointer;
-    font-weight: bold;
-    color: #333;
-    padding: 4px 0;
-  }
-
-  .lyrics-summary .label {
-    color: #2c3e50; /* 深色标签 */
-    font-weight: bold;
-    margin-right: 4px; /* 标签和时间戳之间的间距 */
-  }
-  
-  /* 时间戳样式（如[0.00:2.80]） */
-  .lyrics-summary .timestamp {
-    color: #7f8c8d; /* 浅色时间戳 */
-    margin-right: 12px; /* 整体之间的间距 */
-  }
-  
-  /* 保持原有的换行和间距 */
-  .lyrics-summary {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 8px 0;
     line-height: 1.5;
-    white-space: pre-line;
+  }
+  
+  .lyrics-summary .label {
+    color: #2c3e50;
+    font-weight: bold;
+    margin-right: 4px;
+  }
+  
+  .lyrics-summary .timestamp {
+    color: #7f8c8d;
+    margin-right: 12px;
   }
 
   </style>
@@ -352,13 +345,7 @@
         <td width="70%" style="text-align: left;">
           <details>
             <summary class="lyrics-summary">
-              <span class="label">[intro]</span><span class="timestamp">[0.00:2.80]</span>  
-              <span class="label">[verse]</span><span class="timestamp">[2.80:33.23]</span>  
-              <span class="label">[chorus]</span><span class="timestamp">[33.23:56.14]</span>  
-              <span class="label">[inst]</span><span class="timestamp">[56.14:77.23]</span>  
-              <span class="label">[verse]</span><span class="timestamp">[77.23:108.65]</span>  
-              <span class="label">[chorus]</span><span class="timestamp">[108.65:125.54]</span>  
-              <span class="label">[outro]</span><span class="timestamp">[125.54:138.49]</span>
+              <span class="label">[intro]</span><span class="timestamp">[0.00:2.80]</span>  <span class="label">[verse]</span><span class="timestamp">[2.80:33.23]</span>  <span class="label">[chorus]</span><span class="timestamp">[33.23:56.14]</span>  <span class="label">[inst]</span><span class="timestamp">[56.14:77.23]</span>  <span class="label">[verse]</span><span class="timestamp">[77.23:108.65]</span>  <span class="label">[chorus]</span><span class="timestamp">[108.65:125.54]</span>  <span class="label">[outro]</span><span class="timestamp">[125.54:138.49]</span>
             </summary>
             <div class="lyrics-content">
               <span class="lyrics-section">[intro][0.00:2.80]</span> ; 
